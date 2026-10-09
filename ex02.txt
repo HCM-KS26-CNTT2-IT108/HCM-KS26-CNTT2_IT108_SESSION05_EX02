@@ -1,0 +1,27 @@
+BÀI 2: CHẨN ĐOÁN LỖI THỰC THI VÀ XÁC ĐỊNH VỊ TRÍ LÀM VIỆC TRONG TERMINAL
+CÁCH 1: THEO CHUẨN LINUX / MAC (BASH / ZSH)
+
+1. Tạo thư mục tên "drink_module":
+   mkdir drink_module
+2. Di chuyển vào thư mục vừa tạo:
+   cd drink_module
+3. Tạo 2 file trống "coffee.txt" và "tea.txt" cùng lúc:
+   touch coffee.txt tea.txt
+-> ĐOẠN KỊCH BẢN HOÀN THIỆN (LINUX / BASH):
+   mkdir drink_module
+   cd drink_module
+touch coffee.txt tea.txt
+
+CÁCH 2: THEO CHUẨN WINDOWS (POWERSHELL)
+1. Tạo thư mục tên "drink_module":
+   mkdir drink_module
+   (Hoặc: New-Item -ItemType Directory -Name "drink_module")
+2. Di chuyển vào thư mục vừa tạo:
+   cd drink_module
+3. Tạo 2 file trống "coffee.txt" và "tea.txt" cùng lúc:
+   New-Item coffee.txt, tea.txt
+   (Hoặc dùng alias tương đương: touch coffee.txt, tea.txt)
+-> ĐOẠN KỊCH BẢN HOÀN THIỆN (WINDOWS POWERSHELL):
+mkdir drink_module
+cd drink_module
+New-Item coffee.txt, tea.txt
